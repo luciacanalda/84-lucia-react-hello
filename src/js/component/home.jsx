@@ -42,7 +42,7 @@ const Home = () => {
 				<div class="row">
 					{cards.map((item, index) => (
 
-						<div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" key={index}>
+						<div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 p-3" key={index}>
 							<Card cards={item} />
 						</div>
 
